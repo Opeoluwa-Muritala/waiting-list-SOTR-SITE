@@ -1,7 +1,6 @@
 node_modules
-.env.local
-.env.*
 .DS_Store
 
 # Next.js build output (ignore entire .next including dev cache)
 .next
+config.bat

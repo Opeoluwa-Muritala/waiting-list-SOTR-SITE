@@ -22,8 +22,8 @@ export default function Home() {
       <header
         className={
           isDark
-            ? "border-b border-white/5 bg-[#020617]/80 backdrop-blur"
-            : "border-b border-black/5 bg-white/80 backdrop-blur"
+            ? "sticky top-0 z-50 border-b border-white/5 bg-[#020617]/90 backdrop-blur"
+            : "sticky top-0 z-50 border-b border-black/5 bg-white/90 backdrop-blur"
         }
       >
         <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 text-sm md:py-4">
